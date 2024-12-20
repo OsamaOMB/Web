@@ -102,7 +102,40 @@ section {
     margin-bottom: 40px;
     transition: 0.7s ease;
 }
-
+.sec-btn {
+    color: #ffffff;
+    background-color: #1e75ae;
+    font-family: "Noto Kufi Arabic";
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 800;
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+}
+.sec-btn:hover{
+    background-color: #2386c8;
+}
+.thr-btn {
+    color: #52b035;
+    background-color: #fff;
+    font-family: "Noto Kufi Arabic";
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 800;
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+    border: 2px solid #52b035;
+}
+.thr-btn:hover{
+    background-color: #52b035;
+    color: #ffffff;
+}
 .main-btn:hover {
     color: #ffffff;
     background-color: #00b6c3;
@@ -143,7 +176,7 @@ section {
 .title {
     display: flex;
     justify-content: center;
-    color: #00d1de;
+    color: #ffffff;
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
@@ -182,9 +215,6 @@ section {
     text-align: center;
 }
 
-.card .icon .khamsat {
-    max-width: 1px;
-}
 
 .info {
     text-align: center;
@@ -215,50 +245,46 @@ section {
     margin: 20px;
     transition: 0.7s ease;
 }
-
 .project-card:hover {
     transform: scale(1.1);
 }
 
-.project-card:hover .project-image {
-    opacity: 0.9;
-    transition: 0.5s;
+.project-card2 {
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 21.25em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
 }
+.project-card2:hover {
+    transform: scale(1.1);
+}
+
 
 .project-image img {
     width: 100%;
 }
 
 .project-info {
-    padding: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
 }
 
 .project-title {
     font-size: 1.2em;
     color: #000;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     text-transform: uppercase;
     font-weight: 800;
     margin-top: 10px;
 }
 
-.behance {
-    margin-bottom: 1em;
-    margin-top: 1em;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    width: 100%;
-    padding: 1em 2em;
-    background-color: #fff;
-    border: 0 solid;
-}
-
-.behance h1 {
-    color: #222222;
-}
 
 .more-details {
     text-decoration: none;
@@ -436,15 +462,6 @@ section {
         font-size: 12px;
     }
 
-    .behance {
-        margin-bottom: 0.1em;
-        margin-top: 0.1em;
-        padding: 0.1em 1em;
-    }
-
-    .behance h1 {
-        font-size: 1em;
-    }
 
     .card {
         width: 21em;
@@ -472,13 +489,7 @@ section {
         margin: 5px;
     }
 
-    .behance {
-        padding: 0em 1em;
-    }
-
-    .behance h1 {
-        font-size: 0.8em;
-    }
+  
 
     .footer {
         padding: 2px 6px;
